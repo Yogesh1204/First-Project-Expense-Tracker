@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3 hours JS Project</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Bookmark Website</h1>
+    <form onsubmit="handleFormSubmit(event)">
+        <label>Website Title:<input type="text" id="title" name="title"></label><br>
+        <label>Website URL:<input type="text" id="url" name="url"></label><br>
+        <button type="submit">Add</button>
+    </form>
+    <br><br><br>
+    <section>
+        <h2>All Bookmarks</h2>
+        <ul></ul>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.5.1/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
